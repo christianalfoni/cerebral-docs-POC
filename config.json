@@ -1,0 +1,32 @@
+{
+  "title": "Cerebral Docs",
+  "scripts": {
+    "*": ["prism"],
+    "index": ["script2"],
+    "docs": ["search"]
+  },
+  "css": {
+    "*": [
+      "https://fonts.googleapis.com/css?family=Roboto:700,500,400",
+      "https://fonts.googleapis.com/css?family=Roboto+Mono",
+      "main",
+      "prism"
+    ],
+    "index": ["index"],
+    "docs": ["docs"]
+  },
+  "docs": {
+    "install": [
+      "install_cerebral",
+      "install_debugger",
+      "install_boilerplate",
+      "install_tools",
+      "install_function_tree"
+    ],
+    "tutorial": [
+      "tutorial_introduction",
+      "tutorial_define_state",
+      "tutorial_render_state"
+    ]
+  }
+}
