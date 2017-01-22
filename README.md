@@ -13,11 +13,8 @@ Though it is great that we are using a static site builder, it is rather complex
 - Can add any new content as we wish, where `docs` is the hook for using markdown
 - It has search
 
-### Features to come
-- React components in markdown (https://github.com/kitze/react-in-markdown)
-
 ### Demo
-Start the demo with `npm start`. It shows off menu, TOC and rendering markdown. To build run `npm run build`. A static version is available in `dist` folder.
+Start the demo with `npm start`. It shows off menu, TOC, rendering markdown and search. To build run `npm run build`. A static version is available in `dist` folder. Run `python` or whatever to test.
 
 ### Summary
 Contributing to these docs is as simple as adding components, markdown, css and scripts. It is all wired in the `config.json` file. Easy to understand.
