@@ -2,7 +2,7 @@ html, body {
   height: 100%;
   background-color: #FFF;
   margin: 0;
-  font-family: Roboto, sans-serif;
+  font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
   color: #333;
 }
 
@@ -33,7 +33,6 @@ a {
   text-decoration: none;
   color: #0086b3;
   cursor: pointer;
-  padding: 0 5px;
 }
 
 a:hover {
@@ -43,4 +42,10 @@ a:hover {
 h1, h2, h3, h4, h5, h6 {
   padding-top: 60px;
   margin-top: 0;
+  font-weight: normal;
+  color: #333;
+}
+
+h4, h5, h6 {
+  font-weight: bold;
 }

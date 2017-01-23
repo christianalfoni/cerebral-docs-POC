@@ -2,22 +2,28 @@
 
 Requirements for this tutorial is that you have [Node](https://nodejs.org/en/) version 5 or higher installed. You would definitely benefit from a fresh cup of coffee or a beer as well, ready to learn something new :)
 
-This tutorial will take you through the core concepts of Cerebral. To get started you will need to clone the cerebral Github repository. To do so you need [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) installed, or the [Github desktop](https://desktop.github.com/) client. Now clone the repo to a folder on your computer, either by command line:
+This tutorial will take you through the core concepts of Cerebral.
+
+## Step 1
+To get started you will need to clone the cerebral Github repository. To do so you need [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) installed, or the [Github desktop](https://desktop.github.com/) client. Now clone the repo to a folder on your computer, either by command line:
 
 `git clone https://github.com/cerebral/cerebral.git`
 
 or using the desktop application.
 
+## Step 2
 Then go to directory **cerebral/docs/tutorial** and run the command:
 
 `npm install`
 
-**Alpha Note**. During the alpha you also need to do the following after the install:
+## Step 3 (Alpha note)
+During the alpha you also need to do the following after the install:
 
 `npm install cerebral@next function-tree@next cerebral-provider-http@next cerebral-router@next`
 
 This may take a little while and does **not** mean that Cerebral is a huge download. In fact Cerebral as a production build is very small compared to other popular frameworks.
 
+## The features
 Our Goal now is to go through some concepts and show off the features of Cerebral:
 
 - **Controller**
@@ -29,7 +35,7 @@ Our Goal now is to go through some concepts and show off the features of Cerebra
 
 They are all explained in depth in the [In depth](../in-depth/01_the-architecture.html) section.
 
-### How does this tutorial work?
+## How does this tutorial work?
 To start the tutorial, run:
 
 `npm start`
@@ -53,7 +59,7 @@ For beginners in web development we have the following advice: Just follow the t
 |	|
 |	└── index.js
 |
-├── parts
+├── DO_NOT_TOUCH
 | ├── 01
 | | ├── ...
 | ├── 02

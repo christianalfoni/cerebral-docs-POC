@@ -1,4 +1,4 @@
-# Boilerplate
+# Boilerplates
 
 ## create-react-app
 

@@ -31,22 +31,20 @@ We used something called a **tag** to define our state dependency. If you are un
 
 But our application does not do much. We have to introduce the concept of change. With the debugger we can actually force a change to our state and make the UI update. Click the title state in the debugger, change it and hit enter. You will see the application display your changed state.
 
-Thanks to
+Thanks to...
 ```js
 connect({
   title: state`title`
 }, ...)
 ```
-we told Cerebral that this component is interested in the value on the path **title**, and we wanted it exposed as **title** to our component as well. Because this component now depends on the **title** state it gets rendered whenever the path has a change.
+...we told Cerebral that this component is interested in the value on the path **title**, and we wanted it exposed as **title** to our component as well. Because this component now depends on the **title** state it gets rendered whenever the path has a change.
 
 Congratulations, you have now created application state and exposed it to a component. You have now gained the power of translating the state of the application into something a user can understand. You will notice with Cerebral that this is a very clear separation. You define your application state in Cerebral and you use components to translate this state into a user interface.
 
+## The signature
 Let us quickly talk about the syntax before moving on. The signature of connect most commonly uses two arguments:
 
-1. The dependencies of the component
-2. The component itself
-
-`connect(dependencies, Component)`
+**connect(dependencies, Component)**
 
 We usually write this out as:
 
@@ -66,7 +64,7 @@ connect({
 
 Cause it just looks nicer. It is also very nice to read the dependencies of your component first and then what the component does with those dependencies.
 
-### Challenge
+## Challenge
 
 It's time for your first challenge!
 
